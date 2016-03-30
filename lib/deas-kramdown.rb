@@ -1,5 +1,5 @@
 require "deas-kramdown/version"
 
-module DeasKramdown
+module Deas::Kramdown
   # TODO: your code goes here...
 end

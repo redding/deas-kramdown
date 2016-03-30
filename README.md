@@ -1,10 +1,25 @@
-# DeasKramdown
+# Deas::Nm
 
-TODO: Write a gem description
+[Deas](https://github.com/redding/deas) template engine for rendering [Kramdown](http://kramdown.gettalong.org/) templates
 
 ## Usage
 
-TODO: Write code samples and usage instructions here
+Register the engine:
+
+```ruby
+require 'deas'
+require 'deas-kramdown'
+
+Deas.configure do |c|
+
+  c.template_source "/path/to/templates" do |s|
+    s.engine 'md', Deas::Kramdown::TemplateEngine
+  end
+
+end
+```
+
+Add `.md` to any template files in your template source path.  Deas will render their content using Kramdown when they are rendered.
 
 ## Installation
 
