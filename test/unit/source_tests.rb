@@ -65,7 +65,7 @@ class Deas::Kramdown::Source
   class RenderTests < InitTests
     desc "`render` method"
     setup do
-      @template_name = ['basic', 'basic_alt'].choice
+      @template_name = ['basic', 'basic_alt'].sample
     end
 
     should "render a template for the given template name and return its data" do
