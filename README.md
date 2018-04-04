@@ -1,4 +1,4 @@
-# Deas::Nm
+# Deas::Kramdown
 
 [Deas](https://github.com/redding/deas) template engine for rendering [Kramdown](http://kramdown.gettalong.org/) templates
 
