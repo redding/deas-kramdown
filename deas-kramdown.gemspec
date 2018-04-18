@@ -20,7 +20,7 @@ Gem::Specification.new do |gem|
 
   gem.add_development_dependency("assert", ["~> 2.16.3"])
 
-  gem.add_dependency("deas",     ["~> 0.43.3"])
+  gem.add_dependency("deas",     ["~> 0.43.4"])
   gem.add_dependency("kramdown", ["~> 1.10"])
 
 end
